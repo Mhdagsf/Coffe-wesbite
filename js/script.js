@@ -1,12 +1,12 @@
 let loginForm = document.querySelector(".login-form");
 
-document.querySelector("#login-btn").onclick = () => {
-  loginForm.classList.add("active");
-};
+// document.querySelector("#login-btn").onclick = () => {
+//   loginForm.classList.add("active");
+// };
 
-document.querySelector("#close-login-form").onclick = () => {
-  loginForm.classList.remove("active");
-};
+// document.querySelector("#close-login-form").onclick = () => {
+//   loginForm.classList.remove("active");
+// };
 
 let menu = document.querySelector("#menu-btn");
 let navbar = document.querySelector(".header .nav");
